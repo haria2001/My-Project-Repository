@@ -1,1 +1,10 @@
+---
+- name : start tomcat server
+  hosts: hosts
+  become: yes
 
+  tasks:
+    - name: start tomcat service
+      ansible.builtin.service:
+        name: tomcat
+        state: started
