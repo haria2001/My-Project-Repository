@@ -1,1 +1,1 @@
-# Here we will give the SERVER-IP  where we need to run a server 
+[ip address] ansible_user=ubuntu
