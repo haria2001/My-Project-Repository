@@ -1,1 +1,2 @@
+[hosts]
 3.85.117.196 ansible_user=ubuntu
