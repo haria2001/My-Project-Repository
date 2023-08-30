@@ -1,0 +1,10 @@
+---
+- name: Install Git Server
+  hosts: hosts
+  become: yes
+  tasks:
+    - name: Start Git Server
+      systemd:
+        name: git
+        state: started
+        enabled: yes
